@@ -18,11 +18,11 @@
   "projects": [
     {
       "packageName": "client",
-      "projectFolder": "packages/client"
+      "projectFolder": "templates/client"
     },
     {
       "packageName": "server",
-      "projectFolder": "packages/server"
+      "projectFolder": "templates/server"
     }
   ]
 }

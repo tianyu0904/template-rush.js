@@ -8,7 +8,7 @@ importers:
 
   .: {}
 
-  ../../packages/client:
+  ../../templates/client:
     dependencies:
       next:
         specifier: ~15.3.1
@@ -45,7 +45,7 @@ importers:
         specifier: ~5.8.3
         version: 5.8.3
 
-  ../../packages/server:
+  ../../templates/server:
     dependencies:
       '@nestjs/common':
         specifier: ^11.1.0
@@ -5364,6 +5364,7 @@ packages:
   /multer@1.4.5-lts.2:
     resolution: {integrity: sha512-VzGiVigcG9zUAoCNU+xShztrlr1auZOlurXynNvO9GiWD1/mTBbUljOKY+qMeazBqXgRnjzeEgJI/wyjJUHg9A==}
     engines: {node: '>= 6.0.0'}
+    deprecated: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
     dependencies:
       append-field: 1.0.0
       busboy: 1.6.0
